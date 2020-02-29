@@ -19,6 +19,7 @@ produces:
   - application/json
 paths:
   /upload:
+    x-swagger-router-controller: upload
     post:
       operationId: upload
       summary: Uploads a file.
