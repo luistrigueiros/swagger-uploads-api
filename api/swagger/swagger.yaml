@@ -36,6 +36,14 @@ paths:
           schema:
             # a pointer to a definition
             $ref: "#/definitions/HelloWorldResponse"
+  /create_session:
+    get:
+      summary: Creates new attachment session 
+      description: Creates a new attachment session and return the new session id for usage in when attaching files
+      responses:
+        200:
+          description: OK
+    
   /hello:
     # binds a127 app logic to a route
     x-swagger-router-controller: hello_world
@@ -71,6 +79,9 @@ paths:
     x-swagger-pipe: swagger_raw
 # complex objects have schema definitions
 definitions:
+  NewSessionCreationResponse:
+    properties:
+    
   HelloWorldResponse:
     required:
       - message
