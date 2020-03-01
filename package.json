@@ -18,6 +18,6 @@
     },
     "scripts": {
         "start": "node app.js",
-        "test": "npx swagger project test"
+        "test": "swagger project test"
     }
 }
