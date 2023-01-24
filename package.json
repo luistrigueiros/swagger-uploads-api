@@ -10,11 +10,11 @@
     "dependencies": {
         "express": "^4.12.3",
         "fs-extra": "^8.1.0",
-        "swagger-express-mw": "^0.1.0"
+        "swagger-express-mw": "^0.7.0"
     },
     "devDependencies": {
         "should": "^13.2.3",
-        "supertest": "^1.0.0"
+        "supertest": "^6.3.3"
     },
     "scripts": {
         "start": "node app.js",
